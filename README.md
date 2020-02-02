@@ -3,12 +3,10 @@
 Это адаптация темы Multiserve от [HTML5UP](https://html5up.net/), под CMS 
 [Flextype](https://flextype.org/en). 
 
-Почему я не залил темы отдельным репозиторием? Да потому что тема требует наличие не 
-стандартных Entries и Fieldsets. Хотя мне можно было написать инструкцию длинной в 
-киллометр объясняющую как нужно устанавливать тему, нормальные движки так не работают
-поэтому здесь весь двидок со всем необходимым для запуска.
+Это репозиторий демонстрирующий тему, сам репозиторий темы с инструкциями
+по её установке находится здесь: [github.com](https://github.com/slexx1234/multiverse-flextype-theme).
 
-А да, установка:
+Установка:
 
 ```bach
 git@github.com:slexx1234/multiverse.git
@@ -21,10 +19,5 @@ cd ../../../
 
 cd site/plugins/site
 composer install
-
-cd ../../../
-
-cd site/themes/default
-npm install
-gulp
 ```
+
