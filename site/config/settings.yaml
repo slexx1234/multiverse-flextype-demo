@@ -1,0 +1,72 @@
+title: Flextype
+description: 'Build fast, flexible, easier to manage websites with Flextype.'
+keywords: 'flextype, php, cms, flat-file cms, flat cms, flatfile cms, html'
+robots: 'index, follow'
+author:
+  name: ''
+  email: ''
+timezone: UTC
+charset: UTF-8
+theme: multiverse
+locale: en_US
+date_format: 'd-m-Y H:i'
+date_display_format: 'd-m-y G:i'
+entries:
+  main: home
+  media:
+    upload_images_quality: 70
+    accept_file_types: 'gif, jpg, jpeg, png, ico, zip, tgz, txt, md, doc, docx, pdf, epub, xls, xlsx, ppt, pptx, mp3, ogg, wav, m4a, mp4, m4v, ogv, wmv, avi, webm, svg'
+    upload_images_width: 1600
+    upload_images_height: 0
+  error404:
+    title: 'Error 404'
+    description: 'We''re sorry but the page you are looking for doesn''t appear to exist!'
+    content: '<center>We''re sorry but the page you are looking for doesn''t appear to exist!</center>'
+    template: default
+errors:
+  display: true
+cache:
+  enabled: false
+  prefix: flextype
+  driver: auto
+  lifetime: 604800
+  memcache:
+    server: localhost
+    port: '11211'
+  memcached:
+    server: localhost
+    port: '11211'
+  redis:
+    socket: ''
+    password: ''
+    server: localhost
+    port: '6379'
+  sqlite3:
+    database: flextype
+    table: flextype
+admin_panel:
+  theme: light
+whoops:
+  editor: atom
+  page_title: Error!
+display_error_details: '0'
+add_content_length_header: '1'
+router_cache_file: '0'
+determine_route_before_app_middleware: '0'
+output_buffering: append
+response_chunk_size: '4096'
+http_version: '1.1'
+twig:
+  debug: '0'
+  auto_reload: '1'
+  cache: '1'
+  charset: UTF-8
+slugify:
+  separator: '-'
+  lowercase: true
+  trim: true
+  strip_tags: false
+  lowercase_after_regexp: false
+  regexp: '/[^A-Za-z0-9]+/'
+image:
+  driver: gd
