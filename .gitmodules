@@ -1,0 +1,3 @@
+[submodule "site/themes/multiverse"]
+	path = site/themes/multiverse
+	url = git@github.com:slexx1234/multiverse-flextype-theme.git
