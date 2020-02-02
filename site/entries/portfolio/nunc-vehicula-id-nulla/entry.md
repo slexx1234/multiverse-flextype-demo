@@ -3,7 +3,7 @@ title: 'Nunc vehicula id nulla'
 description: 'Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.'
 image: 08.jpg
 template: default
-fieldset: multiverse-portfolio
+fieldset: multiverse-portfolio-item
 uuid: f560b55a-57c7-441e-9450-ce749a159d25
 published_at: '02-02-2020 12:13'
 created_at: '02-02-2020 12:13'

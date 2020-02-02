@@ -8,7 +8,7 @@ author:
 timezone: UTC
 charset: UTF-8
 theme: multiverse
-locale: ru_RU
+locale: en_US
 date_format: 'd-m-Y H:i'
 date_display_format: 'd-m-y G:i'
 entries:
