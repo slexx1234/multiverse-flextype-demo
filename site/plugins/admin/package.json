@@ -15,7 +15,7 @@
         "gulp-csso": "~3.0.1",
         "gulp-sass": "~4.0.2",
         "gulp-sourcemaps": "~2.6.4",
-        "jquery": "~3.4.1",
+        "jquery": "~3.5.0",
         "messenger-hubspot": "1.5.0-b2",
         "popper.js": "~1.15.0",
         "run-sequence": "~2.2.1",
